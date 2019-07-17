@@ -1,3 +1,5 @@
+this is the repo for my alternative version of alpha-blog. this is for my practice
+
 # README
 
 This README would normally document whatever steps are necessary to get the
