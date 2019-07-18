@@ -22,8 +22,13 @@
   </div>
 
   <div class="field">
+    <%= form.label :keyword %>
+    <%= form.text_field :keyword %>
+  </div>
+
+  <div class="field">
     <%= form.label :importance %>
-    <%= form.number_field :importance %>
+    <%= form.range_field :importance, :in => 0..5, :step => '1'%>
   </div>
 
   <div class="actions">
