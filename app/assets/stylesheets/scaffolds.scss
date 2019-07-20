@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
-  color: #333;
-  margin: 33px;
+  // color: #333;
+  // margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -14,17 +14,15 @@ p, ol, ul, td {
 }
 
 pre {
-  background-color: #eee;
+  // background-color: #eee;
   padding: 10px;
   font-size: 11px;
 }
 
 a {
-  color: #000;
+  // color: rgb(134, 128, 128);
 
-  &:visited {
-    color: #666;
-  }
+ 
 
   &:hover {
     color: #fff;
@@ -82,3 +80,36 @@ div {
 label {
   display: block;
 }
+
+.row.no-pad {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-pad>[class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-green {
+  background-color: green;
+  border: rgb(0, 80, 0)
+}
+
+.btn-green:hover {
+  background-color: darkgreen;
+  border:rgb(0, 110, 0)
+}
+
+.whitetext {
+  color: white;
+  text-shadow: 1px 0 0 #000,
+  0 -1px 0 #000,
+  0 1px 0 #000,
+  -1px 0 0 #000;
+}
+
+.btnwhitetext {
+  color: white;
+}
+
